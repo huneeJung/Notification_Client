@@ -1,0 +1,116 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.board {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th.header-cell {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.category-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.category-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-buttons button,.category-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-buttons button:hover,.category-button:hover {
+  background-color: #ddd;
+}
+
+.category-buttons button.active,.category-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+.write-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.write-button:hover {
+  background-color: #0056b3;
+}
+
+.category-buttons button,
+.category-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* 링크 태그의 밑줄 없애기 */
+  color: black; /* 글 색상을 검은색으로 바꾸기 */
+}
+
+.notification-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-notice-row {
+  font-weight: bold; /* 예시: 폰트를 굵게 설정 */
+  color: green;
+}

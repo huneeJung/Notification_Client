@@ -1,0 +1,14 @@
+/* Element.css */
+.category-button {
+  /* 일반 버튼 스타일 */
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.category-button.selected {
+  /* 선택된 버튼의 스타일 */
+  background-color: lightblue;
+  font-weight: bold;
+}
